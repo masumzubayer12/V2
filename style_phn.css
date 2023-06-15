@@ -1,0 +1,400 @@
+@media screen and (max-width: 600px) {
+    *{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     border: none;
+     outline: none;
+     text-decoration: none;
+    }
+    body{
+       background-color:  rgba(201, 194, 162, 0.966);
+    }
+    .dark-mode {
+       background-color: #283747;
+       color: #fff;
+     }
+    nav{
+       position: absolute;
+       top: 0%;
+       bottom: 0%;
+       left: 0%;
+       height: cover;
+       background-color:  #5F6A6A;
+       color: #fff;
+       z-index: 1;
+       width: 80px;
+       overflow: hidden;
+       transition: width 0.2s linear;
+       box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.1);
+       font-family:'Raleway', sans-serif;
+       border-end-end-radius: 50px;
+    }
+ 
+    .logo{
+       width: 200px;
+       text-align: center;
+       display: flex;
+       justify-content: center;
+       margin: 10px 0px 0px 0px;
+       position: relative;
+       color: rgba(85, 83, 83);
+       font-size: 14px;
+    }
+    .logo img{
+       height: 45px;
+       width: 45px;
+       border-radius: 50%;
+    }
+    .logo span{
+       display: flex;
+       align-items: center;
+       font-weight: bold;
+       color: #fff;
+       padding-left: 30px;
+       font-size: 18px;
+       text-transform: uppercase;
+    }
+    .nav{
+       position: relative;
+       color: rgb(255, 255, 255);
+       font-size: 14px;
+       display: table;
+       padding: 10px;
+       width: 300px;
+    }
+    .fas {
+       position: relative;
+       width: 70px;
+       height: 40px;
+       top: 14px;
+       font-size: 20px;
+       text-align: center;
+    }
+    .nav-items{
+       position: relative;
+       top: 12px;
+       margin-left: 10px;
+    }
+    .nav:hover{
+       background-color: #bebebe;
+       border-radius: 20px;
+    }
+    nav:hover{
+       width: 280px;
+       transition: all 0.6s ease;
+    }
+    .nav button{
+       color: #fff;
+       position: absolute;
+       text-align: left;
+       left: 80px;
+       background-color: transparent;
+       width: 180px;
+       height: 40px;
+    }
+    .head-h1{
+        float: right;
+       background-color: #85929E;
+       height: 100px;
+       width: 100%;
+       border-radius: 0px 0px 20px 20px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    .head-h1 h1{
+        float: right;
+       font-size: 24px;
+       color: #fff;
+       font-family: 'Righteous', cursive;
+    }
+    .btn-style{
+       
+       margin: 0px;
+       padding: 10px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    .btn{
+       background-color: #85929E;
+       color: white;
+       margin: 0px 30px 0px 20px;
+       height: 50px;
+       width: 50px;
+       border: none;
+       border-radius: 40px;
+       display: flex;
+    }
+    .dc_style{
+       position: relative;
+       width: 70px;
+       height: 40px;
+       top: 14px;
+       font-size: 20px;
+       text-align: center;
+    }
+    .btn:hover{
+       background-color:#CCD1D1;
+       color: #283747;
+       cursor: pointer;
+       transition: 0.3s;
+    }
+    .player_1{
+       float: right;
+       margin: 0 auto;
+       margin-bottom: 20px;
+       height: 100px;
+       width: 80%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       box-shadow: 0px 5px 40px #000;
+       border-radius: 20px;
+       background-image: url('https://www.techthirsty.com/wp-content/uploads/2022/02/free-fire-removed-from-play-store-1-640x360.webp');
+       background-repeat: no-repeat;
+       background-size: cover;
+       font-size: 40px;
+       color: #000000;
+       font-weight: 800;
+       font-family: sans-serif;
+       text-shadow: 0px 5px 20px #000;
+    }
+    .player_1:hover{
+       opacity: 80%;
+       color: #fff;
+       cursor: pointer;
+    }
+    .player_2{
+        float: right;
+       margin: 0 auto;
+       margin-bottom: 20px;
+       height: 100px;
+       width: 80%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       box-shadow: 0px 5px 40px #000;
+       border-radius: 20px;
+       background-image: url('https://images.hindustantimes.com/tech/img/2022/02/21/960x540/pop4_(1)_1645441677422_1645441694514.jpg');
+       background-repeat: no-repeat;
+       background-size: cover;
+       font-size: 40px;
+       color: #000000;
+       font-weight: 800;
+       font-family: sans-serif;
+       text-shadow: 0px 5px 20px #000;
+    }
+    .player_2:hover{
+       opacity: 80%;
+       color: #fff;
+       cursor: pointer;
+    }
+    .player_3{
+        float: right;
+       margin: 0 auto;
+       height: 100px;
+       width: 80%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       box-shadow: 0px 5px 40px #000;
+       border-radius: 20px;
+       background-image: url('pics/player.jpg');
+       background-repeat: no-repeat;
+       background-size: cover;
+       font-size: 40px;
+       color: #000000;
+       font-weight: 800;
+       font-family: sans-serif;
+       text-shadow: 0px 5px 20px #000;
+    }
+    .player_3:hover{
+       opacity: 80%;
+       color: #fff;
+       cursor: pointer;
+    }
+    .form{
+      margin: 0 auto;
+      text-align: center;
+      height: 450px;
+      width: 80%;
+      border-radius: 15px;
+      background: rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(20px);
+    }
+    .form h2{
+       font-family: Algerian;
+       text-align: center;
+    }
+    .real_form{
+       font-family: sans-serif;
+       padding: 20px;
+       text-align: center;
+ 
+    }
+    .real_form_sub{
+       position: relative;
+       left: 1px;
+       border-radius: 10px;
+       height: 40px;
+       width: 50px;
+       margin-left: 10px;
+    }
+    .real_form_sub:hover{
+       background-color: #283747;
+       color: #fff;
+       cursor: pointer;
+    }
+    .form_inp{
+       width: 80%;
+       border-radius: 4px;
+       background-color:#CCD1D1;
+       text-decoration: none;
+       color:#283747;
+       height: 30px;
+    }
+    .card{
+       margin: 0 auto;
+       margin-top: 100px;
+       position: relative;
+       height: 170px;
+       width: 80%;
+       background-color: #997f7f;
+       border-radius: 20px;
+       box-shadow: 0px 35px 80px rgba(0, 0, 0, 0.15);
+       transition: 0.6s;
+    }
+    .card:hover{
+       height: 350px;
+    }
+    .image{
+       position: absolute;
+       left: 25%;
+       top: -50px;
+       width: 150px;
+       height: 150px;
+       background-color: #fff;
+       border-radius: 20px;
+       box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.35);
+       overflow: hidden;
+       transition: 0.6s;
+    }
+    .card:hover .image{
+       width: 180px;
+       height: 180px;
+    }
+    .image img{
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+    }
+    .card .content {
+       position: absolute;
+       width: 100%;
+       height: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: flex-end;
+       overflow: hidden;
+    }
+    .card .content .details{
+       padding: 40px;
+       text-align: center;
+       width: 100%;
+       transition: 0.5s;
+       transform: translateY(150px);
+    }
+    .card:hover .content .details{
+       transform: translateY(0px);
+    }
+    .card .content .details h2{
+       font-family: 'Signika', sans-serif;
+       line-height: 1.2cm;
+       font-size: 30px;
+    }
+    .card .content .details span{
+       position: relative;
+       top: -10px;
+       font-family: 'Signika', sans-serif;
+    }
+    .card .content .data {
+       font-family: sans-serif;
+       text-align: left;
+       letter-spacing: 2px;
+    }
+    .card .content .data a {
+       font-size: 40px;
+       letter-spacing: 50px;
+       color:#283747;
+    }
+    .card .content .data a:hover{
+       color: #533a3a;
+    }
+    .about{
+       position: relative;
+       left: 100px;
+       width: 80%;
+       height: 500px;
+    }
+    .line{
+       height: 10px;
+       width: 500px;
+       background-color: #fff;
+       border-radius: 5px;
+    }
+    .about_h1{
+       font-family: 'Tilt Prism', cursive;
+    }
+    .about_p{
+       font-family: 'Comfortaa', cursive;
+       letter-spacing: 1px;
+       font-size: 20px;
+       text-align: justify;
+    }
+    .un_army{
+      position: relative;
+      top: 50px;
+      left: 100px;
+      
+   }
+   .un_army p{
+      font-family: 'Tilt Prism' ;
+      font-size: 40px;
+      font-weight: 700;
+   }
+   .index {
+      
+      position: relative;
+      top: 50px;
+   }
+   .idx{
+      float: right;
+      margin: 0 auto;
+      margin-bottom: 20px;
+      height: 100px;
+      width: 70%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0px 5px 40px #000;
+      border-radius: 20px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-size: 20px;
+      color: #000000;
+      font-weight: 800;
+      font-family: sans-serif;
+      text-shadow: 0px 5px 20px #000;
+   }
+   .idx:hover{
+      opacity: 80%;
+      color: #fff;
+      cursor: pointer;
+ }
+}
